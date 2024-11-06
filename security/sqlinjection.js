@@ -1,4 +1,4 @@
-/*npm install express-sanitize-sql*/
+/*npm install express-sanitize-sql */
 
 const sanitizeSql = require('express-sanitize-sql');
 
