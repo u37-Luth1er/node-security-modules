@@ -13,3 +13,10 @@ const sanitizeSqlInputs = (req, res, next) => {
 };
 
 module.exports = sanitizeSqlInputs;
+
+/*Use middleware in your routes to ensure all entries are sanitized:*/
+
+javascript
+Copiar código
+const sanitizeSqlInputs = require('./src/security/sqlInjection');
+app.use(sanitizeSqlInputs);
