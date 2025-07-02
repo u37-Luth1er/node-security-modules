@@ -1,4 +1,4 @@
-// src/rateLimiter.js
+/// src/rateLimiter.js
 const rateLimit = require('express-rate-limit');
 
 const apiLimiter = rateLimit({
